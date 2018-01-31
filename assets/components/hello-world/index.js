@@ -1,7 +1,12 @@
-class HelloWorld {
-    helloWorld() {
-      return "helloWorld";
-    }
-  }
+import Controller from "./hello-world.ctrl.js";
+import template from "./hello-world.tmpl.js";
 
-export default (app) => app.controller("HelloWorldCtrl", HelloWorld);
+const HelloWorld = {
+  template: template,
+  bindings: {
+       name: "@"
+  },
+  controller: Controller
+};
+
+export default (container) => container.component("helloWorld", HelloWorld);
