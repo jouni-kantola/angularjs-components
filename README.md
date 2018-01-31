@@ -1,5 +1,6 @@
 # angularjs-components
 Trying out components in AngularJS
 
-## Run
-`npm run serve`
+## Serve
+1. `yarn install` to fetch lightweight web server
+2. `yarn run serve` to run app
