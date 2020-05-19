@@ -1,6 +1,7 @@
 import angular from "angular";
 
-import { HelloWorldComponent } from "./components/hello-world";
+import components from "./components";
 
-angular.module("App", []).component("helloWorld", HelloWorldComponent);
+const module = angular.module("App", []);
 
+components(module);
