@@ -1,3 +1,6 @@
 export const HelloWorldComponent = {
-  template: "<h1>Hello world</h1>",
+  template: "<h1>Hello {{$ctrl.name}}</h1>",
+  bindings: {
+    name: "@",
+  },
 };
