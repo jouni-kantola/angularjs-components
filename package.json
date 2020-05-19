@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:jouni-kantola/angularjs-components.git",
-  "author": "Jouni Kantola <jouni.kantola@nepa.com>",
+  "author": "Jouni Kantola <jouni@kantola.se>",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "angular": "^1.7.9",
+    "parcel": "^1.12.4"
   },
   "scripts": {
-    "serve": "node_modules/.bin/http-server"
+    "start": "parcel index.html"
   }
 }
