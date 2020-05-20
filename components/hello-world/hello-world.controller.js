@@ -1,5 +1,6 @@
-export default function HelloWorldController($scope, $element, $timeout) {
-  const givenName = $element.attr("name");
+export default function HelloWorldController($scope, $element, $timeout, counterService) {
+    const givenName = $element.attr("name");
 
-  this.friend = `${givenName}!`;
+    this.friend = `${givenName}!`;
+    this.seconds = counterService.value;
 }
