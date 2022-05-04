@@ -6,7 +6,7 @@
   "author": "Jouni Kantola <jouni@kantola.se>",
   "license": "MIT",
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.3",
     "parcel": "^1.12.4"
   },
   "scripts": {
